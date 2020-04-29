@@ -1,0 +1,76 @@
+td {
+  padding: 5px;
+}
+
+.vertical_space {
+  height: 10px;
+}
+.jqstooltip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  background: rgb(0, 0, 0) transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  color: white;
+  font: 10px arial, san serif;
+  text-align: left;
+  white-space: nowrap;
+  padding: 5px;
+  border: 1px solid white;
+  z-index: 10000;
+}
+.form-body {
+  background-color: #eff3f8;
+  padding:20px;
+}
+.form-group {
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.required {
+  color: red;
+}
+.page-content-inner{
+    padding-top: 100px;
+}
+.form-group input,
+.form-group table {
+  width: 500px;
+}
+.form-group tr {
+  width: 100% !important;
+}
+.form-group td {
+  width: 50% !important;
+}
+.form-group label {
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.tab-content h4 {
+  font-weight: 100;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.form-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-actions .button-submit {
+  background-color: #0056b3;
+  border-radius: 0;
+  color: rgb(230, 227, 227);
+}
+
+.jqsfield {
+  color: white;
+  font: 10px arial, san serif;
+  text-align: left;
+}
